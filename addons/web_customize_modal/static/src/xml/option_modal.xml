@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+# Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+# See LICENSE file for full copyright and licensing details.
+ -->
+<templates id="template" xml:space="preserve">
+    <t t-name="web_customize_modal.options_menu">
+        <li class="dropdown hidden-xs" id="web_customize_menu">
+            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" title="Customizer">
+                <i class="fa fa-paint-brush"/>
+            </a>
+            <ul role="menu" class="dropdown-menu customize_block">
+                <li class="custome_color row">
+                    <h4 class="text-primary col-xl-12"><i class="fa fa-arrow-right"/> Color</h4>
+                    <div class="col-xl-6 scheme_color_default">
+                        <label class="icon checked" title="Default Odoo">
+                            <input id="scheme_color_default" type="radio" name="customize_color" data-xmlid="web_customize_modal.colors_default" active="True"/>
+                            <span class="default-primary"/>
+                            <span class="default-success"/>
+                        </label>
+                    </div>
+
+                    <div class="col-xl-6 scheme_color_blue">
+                        <label class="icon" title="Blue">
+                            <input id="scheme_color_blue" type="radio" name="customize_color" data-xmlid="web_customize_modal.colors_blue"/>
+                            <span class="blue-primary"/>
+                            <span class="blue-success"/>
+                        </label>
+                    </div>
+                    <div class="col-xl-6 scheme_color_furniture">
+                       <label class="icon" title="Furniture">
+                        <input id="scheme_color_furniture" type="radio" name="customize_color" data-xmlid="web_customize_modal.colors_furniture"/>
+                            <span class="furniture-primary"/>
+                            <span class="furniture-success"/>
+                        </label>
+                    </div>
+                    <div class="col-xl-6 scheme_color_maroon">
+                        <label class="icon" title="Maroon">
+                            <input id="scheme_color_maroon" type="radio" name="customize_color" data-xmlid="web_customize_modal.colors_maroon"/>
+                            <span class="maroon-primary"/>
+                            <span class="maroon-success"/>
+                        </label>
+                    </div>
+
+                    <div class="col-xl-6 mb8 scheme_color_space_cadet">
+                        <label class="icon" title="Space Cadet">
+                            <input id="scheme_color_space_cadet" type="radio" name="customize_color" data-xmlid="web_customize_modal.colors_space_cadet"/>
+                            <span class="space-cadet-primary"/>
+                            <span class="space-cadet-success"/>
+                        </label>
+                    </div>
+
+                    <div class="col-xl-6 mb8 scheme_color_fruits">
+                        <label class="icon" title="Fruits">
+                            <input id="scheme_color_fruits" type="radio" name="customize_color" data-xmlid="web_customize_modal.colors_fruits"/>
+                            <span class="fruits-primary"/>
+                            <span class="fruits-success"/>
+                        </label>
+                    </div>
+
+                <!-- Font -->
+                </li>
+                <hr class="divider_hr"/>
+                <li class="custome_font row">
+                    <h4 class="text-primary col-xl-12"><i class="fa fa-arrow-right"/> Font</h4>
+                    <div class="col-xl-6 scheme_font_default">
+                        <label class="icon checked" title="Default Odoo">
+                            <input id="scheme_font_default" type="radio" name="customize_font" data-xmlid="web_customize_modal.fonts_default" active="True"/>
+                            <span for="font_default" style="font-family: 'Lato'" title="Lato">Lato</span>
+                        </label>
+                    </div>
+
+                    <div class="col-xl-6 scheme_font_raleway">
+                        <label class="icon" title="Raleway">
+                            <input id="scheme_font_raleway" type="radio" name="customize_font" data-xmlid="web_customize_modal.fonts_raleway"/>
+                            <span for="font_Raleway" style="font-family: 'Raleway'" title="Raleway">Raleway</span>
+                        </label>
+                    </div>
+                    <div class="col-xl-6 scheme_font_oswald">
+                       <label class="icon" title="Oswald">
+                           <input id="scheme_font_oswald" type="radio" name="customize_font" data-xmlid="web_customize_modal.fonts_oswald"/>
+                           <span for="font_oswald" style="font-family: 'Oswald'" title="Oswald">Oswald</span>
+                        </label>
+                    </div>
+                    <div class="col-xl-6 scheme_font_roboto">
+                        <label class="icon" title="Roboto">
+                            <input id="scheme_font_roboto" type="radio" name="customize_font" data-xmlid="web_customize_modal.fonts_roboto"/>
+                            <span for="font_roboto" style="font-family: 'Roboto'" title="Roboto">Roboto</span>
+                        </label>
+                    </div>
+
+                    <div class="col-xl-6 scheme_font_open_sans">
+                        <label class="icon" title="Open Sans">
+                            <input id="scheme_font_open_sans" type="radio" name="customize_font" data-xmlid="web_customize_modal.fonts_open_sans"/>
+                            <span for="font_open_sans" style="font-family: 'Open_Sans'" title="Open Sans">Open Sans</span>
+                        </label>
+                    </div>
+
+                    <div class="col-xl-6 scheme_font_playfair_display">
+                        <label class="icon" title="Playfair Display">
+                            <input id="scheme_color_playfair_display" type="radio" name="customize_font" data-xmlid="web_customize_modal.fonts_playfair_display"/>
+                            <span for="font_playfair_display" style="font-family: 'Playfair Display'" title="Playfair Display">Playfair Display</span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </t>
+</templates>

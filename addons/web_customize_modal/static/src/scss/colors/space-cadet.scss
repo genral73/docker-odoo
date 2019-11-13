@@ -1,0 +1,21 @@
+// # Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+// # See LICENSE file for full copyright and licensing details.
+$o-community-color: $space-cadet-primary;
+$o-enterprise-color: $space-cadet-primary;
+$o-enterprise-primary-color: $space-cadet-success;
+
+$o-brand-odoo: $space-cadet-primary;
+$o-brand-primary: $space-cadet-primary;
+$o-brand-success: $space-cadet-success;
+$o-brand-info: $space-cadet-info;
+$o-brand-warning: $space-cadet-warning;
+$o-brand-danger: $space-cadet-danger;
+
+$theme-colors:
+  (
+    "primary":    $space-cadet-primary,
+    "success":    $space-cadet-success,
+    "info":       $space-cadet-info,
+    "warning":    $space-cadet-warning,
+    "danger":     $space-cadet-danger,
+);

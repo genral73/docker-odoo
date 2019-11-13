@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Maroon
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+   // # Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+   // # See LICENSE file for full copyright and licensing details.  z
+$o-community-color: $maroon-primary;
+$o-enterprise-color: $maroon-primary;
+$o-enterprise-primary-color: $maroon-success;
+
+$o-brand-odoo: $maroon-primary;
+$o-brand-primary: $maroon-primary;
+$o-brand-success: $maroon-success;
+$o-brand-info: $maroon-info;
+$o-brand-warning: $maroon-warning;
+$o-brand-danger: $maroon-danger;
+
+$theme-colors:
+  (
+    "primary":    $maroon-primary,
+    "success":    $maroon-success,
+    "info":       $maroon-info,
+    "warning":    $maroon-warning,
+    "danger":     $maroon-danger,
+);

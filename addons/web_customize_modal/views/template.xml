@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+    See LICENSE file for full copyright and licensing details.
+ -->
+<odoo>
+    <template id="web_customize_modal assets" name="Web Customize Modal" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/less" href="/web_customize_modal/static/src/scss/color_option.scss" t-ignore="true"/>
+            <link rel="stylesheet" type="text/less" href="/web_customize_modal/static/src/scss/font_option.scss" t-ignore="true"/>
+            <link rel="stylesheet" type="text/less" href="/web_customize_modal/static/src/scss/variables.scss" t-ignore="true"/>
+        </xpath>
+    </template>
+
+    <template id="web_customize_modal_options_common_js" name="Customize Js" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/web_customize_modal/static/src/js/switcher.js"/>
+        </xpath>
+    </template>
+
+    <!-- Colors  -->
+
+    <template id="colors_assets" name="Color Assets" inherit_id="web._assets_primary_variables">
+        <xpath expr="//link" position="after">
+            <link rel="stylesheet" type="text/less"
+                  href="/web_customize_modal/static/src/scss/colors/colors.scss" t-ignore="true"/>
+        </xpath>
+    </template>
+
+    <template id="colors_default" name="option_colors_default"
+              inherit_id="web_customize_modal.colors_assets" active="True" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/colors/default.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="colors_blue" name="option_colors_blue"
+              inherit_id="web_customize_modal.colors_assets" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/colors/blue.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="colors_furniture" name="option_colors_furniture" inherit_id="web_customize_modal.colors_assets" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/colors/furniture.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="colors_fruits" name="option_colors_fruits" inherit_id="web_customize_modal.colors_assets" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/colors/fruits.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="colors_space_cadet" name="option_colors_space_cadet" inherit_id="web_customize_modal.colors_assets" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/colors/space-cadet.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="colors_maroon" name="option_colors_maroon" inherit_id="web_customize_modal.colors_assets" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/colors/maroon.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+
+    <!-- Fonts -->
+    <template id="fonts_default" name="option_fonts_default" inherit_id="web.assets_backend" active="True" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/fonts/lato.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="fonts_roboto" name="option_fonts_roboto" inherit_id="web.assets_backend" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/fonts/roboto.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="fonts_raleway" name="option_fonts_raleway" inherit_id="web.assets_backend" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/fonts/raleway.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="fonts_open_sans" name="option_fonts_open_sans" inherit_id="web.assets_backend" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/fonts/open_sans.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="fonts_oswald" name="option_fonts_oswald" inherit_id="web.assets_backend" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/fonts/oswald.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+
+    <template id="fonts_playfair_display" name="option_fonts_playfair_display" inherit_id="web.assets_backend" active="False" >
+        <xpath expr="//link[last()]" position="after">
+            <link href="/web_customize_modal/static/src/scss/fonts/playfairdisplay.scss"
+                  rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+</odoo>

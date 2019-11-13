@@ -1,0 +1,162 @@
+/* CUSTOMIZE THEME - MODAL */
+// # Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+// # See LICENSE file for full copyright and licensing details.
+#web_customize_menu{
+    cursor:pointer;
+}
+#web_customize_menu{
+    .divider_hr{
+        border:1px solid $o-brand-primary;
+    }
+    .customize_block{
+        min-width: 300px;
+        overflow-x: hidden;
+        padding: 10px;
+        left: -100px !important;
+    }
+    .icon{
+        text-align: left;
+        clear: both;
+        font-weight: normal;
+    }
+    .custome_color
+    {
+        .icon:before{
+            content: '\f111';
+            font-family: 'FontAwesome';
+            font-size: 18px;
+            margin-right: 8px;
+            margin-bottom: 10px;
+            color: #ccc;
+            float: left;
+            display:none;
+        }
+        .icon:hover{
+            color: $gray-900;
+            cursor: pointer;
+        }
+        .icon:hover:before{
+            content: '\f058';
+            font-family: 'FontAwesome';
+            color: #000;
+        }
+        .icon.checked:before{
+            //content: '\f058';
+            //font-family: 'FontAwesome';
+            color: $o-brand-primary;
+            position: absolute;
+            top: -1px;
+            content: '\f058';
+            font-family: 'FontAwesome';
+            font-size: 18px;
+            display: block;
+            color: #fff;
+            margin-left: 12px;
+        }
+        .icon span{
+            float: left;
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .custome_font{
+        .icon span{
+            float: left;
+            padding-left: 4px;
+            width: 30px;
+            height: auto;
+            padding-top: 4px;
+            font-weight: bold;
+        }
+        .icon.checked:before{
+            //content: '\f058';
+            //font-family: 'FontAwesome';
+            color: $o-brand-primary;
+            content: '\f058';
+            font-family: 'FontAwesome';
+            font-size: 18px;
+            display: block;
+            //color: #fff
+        }
+        .icon:before{
+            content: '\f111';
+            font-family: 'FontAwesome';
+            font-size: 18px;
+        //    margin-right: 8px;
+        //    margin-bottom: 10px;
+            color: #ccc;
+            float: left;
+        //    display:none;
+        }
+        .icon:hover{
+            color: $gray-900;
+            cursor: pointer;
+        }
+        .icon:hover:before{
+            content: '\f058';
+            font-family: 'FontAwesome';
+            color: #000;
+        }
+    }
+    label input {
+        display: none;
+    }
+
+    //Custom Color Settings
+
+    /* default */
+   .default-primary{background-color: $default-primary;}
+   .default-success{background-color: $default-success;}
+   .default-info{background-color: $default-info;}
+   .default-warning{background-color: $default-warning;}
+   .default-danger{background-color: $default-danger;}
+
+     /* army-green */
+    .army-green-primary{background-color: $army-green-primary;}
+    .army-green-success{background-color: $army-green-success;}
+    .army-green-info{background-color: $army-green-info;}
+    .army-green-warning{background-color: $army-green-warning;}
+    .army-green-danger{background-color: $army-green-danger;}
+
+    /* blue */
+    .blue-primary{background-color: $blue-primary;}
+    .blue-success{background-color: $blue-success;}
+    .blue-info{background-color: $blue-info;}
+    .blue-warning{background-color: $blue-warning;}
+    .blue-danger{background-color: $blue-danger;}
+
+    /* furniture */
+    .furniture-primary{background-color: $furniture-primary;}
+    .furniture-success{background-color: $furniture-success;}
+    .furniture-info{background-color: $furniture-info;}
+    .furniture-warning{background-color: $furniture-warning;}
+    .furniture-danger{background-color: $furniture-danger;}
+
+    /* maroon */
+    .maroon-primary{background-color: $maroon-primary;}
+    .maroon-success{background-color: $maroon-success;}
+    .maroon-info{background-color: $maroon-info;}
+    .maroon-warning{background-color: $maroon-warning;}
+    .maroon-danger{background-color: $maroon-danger;}
+
+    /* fruits */
+    .fruits-primary{background-color: $fruits-primary;}
+    .fruits-success{background-color: $fruits-success;}
+    .fruits-info{background-color: $fruits-info;}
+    .fruits-warning{background-color: $fruits-warning;}
+    .fruits-danger{background-color: $fruits-danger;}
+
+    /* brown */
+    .brown-primary{background-color: $brown-primary;}
+    .brown-success{background-color: $brown-success;}
+    .brown-info{background-color: $brown-info;}
+    .brown-warning{background-color: $brown-warning;}
+    .brown-danger{background-color: $brown-danger;}
+
+    /* space-cadet */
+    .space-cadet-primary{background-color: $space-cadet-primary;}
+    .space-cadet-success{background-color: $space-cadet-success;}
+    .space-cadet-info{background-color: $space-cadet-info;}
+    .space-cadet-warning{background-color: $space-cadet-warning;}
+    .space-cadet-danger{background-color: $space-cadet-danger;}
+}

@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Blue
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+// # Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+// # See LICENSE file for full copyright and licensing details.
+
+$o-community-color: $blue-primary;
+$o-enterprise-color: $blue-primary;
+$o-enterprise-primary-color: $blue-success;
+
+$o-brand-odoo: $blue-primary;
+$o-brand-primary: $blue-primary;
+$o-brand-success: $blue-success;
+$o-brand-info: $blue-info;
+$o-brand-warning: $blue-warning;
+$o-brand-danger: $blue-danger;
+
+$theme-colors:
+  (
+    "primary":    $blue-primary,
+    "success":    $blue-success,
+    "info":       $blue-info,
+    "warning":    $blue-warning,
+    "danger":     $blue-danger,
+);

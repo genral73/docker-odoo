@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Odoo Default
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+   // # Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+   // # See LICENSE file for full copyright and licensing details.
+$o-community-color: $default-primary;
+$o-enterprise-color: #875A7B;
+$o-enterprise-primary-color: #00A09D;
+
+$o-brand-odoo: $default-primary;
+$o-brand-primary: $default-primary;
+$o-brand-success: $default-success;
+$o-brand-info: $default-info;
+$o-brand-warning: $default-warning;
+$o-brand-danger: $default-danger;
+
+$theme-colors:
+  (
+    "primary":    $default-primary,
+    "success":    $default-success,
+    "info":       $default-info,
+    "warning":    $default-warning,
+    "danger":     $default-danger,
+);

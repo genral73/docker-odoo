@@ -1,0 +1,29 @@
+/* ==========================================================================
+   Minerals
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+// # Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+// # See LICENSE file for full copyright and licensing details.
+
+$o-community-color: $fruits-primary;
+$o-enterprise-color: $fruits-primary;
+$o-enterprise-primary-color: $fruits-success;
+
+
+$o-brand-odoo: $fruits-primary;
+$o-brand-primary: $fruits-primary;
+$o-brand-success: $fruits-success;
+$o-brand-info: $fruits-info;
+$o-brand-warning: $fruits-warning;
+$o-brand-danger: $fruits-danger;
+
+$theme-colors:
+  (
+    "primary":    $fruits-primary,
+    "success":    $fruits-success,
+    "info":       $fruits-info,
+    "warning":    $fruits-warning,
+    "danger":     $fruits-danger,
+);

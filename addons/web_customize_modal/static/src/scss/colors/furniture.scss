@@ -1,0 +1,27 @@
+/* ==========================================================================
+    furniture
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+   // # Part of Odoo Module Developed by Kinfinity Tech Pvt. Ltd.
+   // # See LICENSE file for full copyright and licensing details.
+$o-community-color: $furniture-primary;
+$o-enterprise-color: $furniture-primary;
+$o-enterprise-primary-color: $furniture-success;
+
+$o-brand-odoo: $furniture-primary;
+$o-brand-primary: $furniture-primary;
+$o-brand-success: $furniture-success;
+$o-brand-info: $furniture-info;
+$o-brand-warning: $furniture-warning;
+$o-brand-danger: $furniture-danger;
+
+$theme-colors:
+  (
+    "primary":    $furniture-primary,
+    "success":    $furniture-success,
+    "info":       $furniture-info,
+    "warning":    $furniture-warning,
+    "danger":     $furniture-danger,
+);
